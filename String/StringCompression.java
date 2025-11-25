@@ -1,7 +1,6 @@
 // package String;
 
 public class StringCompression {
-     
     public StringBuilder compression(String word){
         StringBuilder ans = new StringBuilder("");
         int j =  1;
