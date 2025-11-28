@@ -28,7 +28,7 @@ public class SearchRotatedSorted {
         return -1;
 
     }
-    public int findTarget(int[] arr,int target){
+    public int findTarget(int arr[],int target){
         int pivot = findPivot(arr, 0, arr.length);
         if (arr[pivot] <= target && arr[arr.length - 1] >= target){
             return binarySearch(arr, target, pivot, arr.length - 1);
